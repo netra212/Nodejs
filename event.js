@@ -15,6 +15,7 @@ class Person extends EventEmitter{
         return this._name;
     }
 }
+
 let pedro = new Person('Pedro');
 let christina = new Person('Christina');
 christina.on('name', () =>{
